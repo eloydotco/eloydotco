@@ -1,16 +1,12 @@
-# Fresh project
+Hey there!
 
-Your new Fresh project is ready to go. You can follow the Fresh "Getting
-Started" guide here: https://fresh.deno.dev/docs/getting-started
+I'm Eloy, welcome to my corner of the Internet. This is my place to gather all my stuff, share recommendations, and, eventually, start posting my own thoughts.
 
-### Usage
+Personally, I am a very curious person, a dog lover and a lovely husband. I born in Galicia (🇪🇸), but currently living in Boston, MA (🇺🇸).
 
-Make sure to install Deno: https://deno.land/manual/getting_started/installation
+Professionally, I started my carrer as Software Engineer back on 2016, and, since then, I have played different roles among different companies and projects. You can find all my experience on [my LinkedIn profile](https://linkedin.com/in/eloy-castelo/).
 
-Then start the project:
+If you would like to connect to me personally and/or professionally, do not hesitate to reach me out at [hi@eloy.co](mailto:hi@eloy.co).
 
-```
-deno task start
-```
-
-This will watch the project directory and restart as necessary.
+Kind regards,
+E.
