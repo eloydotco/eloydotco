@@ -3,72 +3,56 @@ export function Logo() {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
-      viewBox="0 0 500 400"
+      viewBox="0 0 400 400"
       className="e-logo"
     >
       <rect
         rx="0"
         ry="0"
-        width="500"
+        width="400"
         height="400"
-        style=""
         fill="none"
-        class="fills"
       />
-      <path d="M100 100h200" class="fills" />
-      <g class="strokes">
+      <g>
         <path
-          d="M100 100h200"
+          d="M50 100h200"
           style="
-            fill: none;
             stroke-width: 50;
             stroke: var(--text-color-1);
-            stroke-opacity: 1;
+            stroke-linecap: round;
+          "
+        />
+      </g>
+      <g>
+        <path
+          d="M100 200h100"
+          style="
+            stroke-width: 50;
+            stroke: var(--text-color-1);
             stroke-linecap: round;
           "
           class="stroke-shape"
         />
       </g>
-      <path d="M150 200h100" class="fills" />
-      <g class="strokes">
+      <g>
         <path
-          d="M150 200h100"
+          d="M350 300h4"
           style="
-            fill: none;
             stroke-width: 50;
             stroke: var(--text-color-1);
-            stroke-opacity: 1;
             stroke-linecap: round;
           "
           class="stroke-shape"
         />
       </g>
-      <path d="M400 300h4" class="fills" />
-      <g class="strokes">
+      <g>
         <path
-          d="M400 300h4"
+          d="M50 300h200"
           style="
-            fill: none;
             stroke-width: 50;
             stroke: var(--text-color-1);
-            stroke-opacity: 1;
             stroke-linecap: round;
           "
-          class="stroke-shape"
-        />
-      </g>
-      <path d="M100 300h200" class="fills" />
-      <g class="strokes">
-        <path
-          d="M100 300h200"
-          style="
-            fill: none;
-            stroke-width: 50;
-            stroke: var(--text-color-1);
-            stroke-opacity: 1;
-            stroke-linecap: round;
-          "
-          class="stroke-shape"
         />
       </g>
     </svg>

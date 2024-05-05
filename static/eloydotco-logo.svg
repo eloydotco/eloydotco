@@ -1,0 +1,30 @@
+<svg width="400" xmlns="http://www.w3.org/2000/svg" height="400" fill="none">
+  <rect x="0" y="0" width="400" height="400" rx="20" ry="20" />
+  <g><path d="M50 100h200" /></g>
+  <g><path d="M100 200h100" /></g>
+  <g><path d="M350 300h4" /></g>
+  <g><path d="M50 300h200" /></g>
+  <style>
+    rect {
+      fill: rgb(12, 12, 12);
+    }
+    g path {
+      stroke-width: 50;
+      stroke: rgb(255, 255, 255);
+      stroke-linecap: round;
+    }
+    @media (prefers-color-scheme: dark) {
+      rect {
+        fill: transparent;
+      }
+    }
+    @media (prefers-color-scheme: light) {
+      rect {
+        fill: rgb(255, 255, 255);
+      }
+      g path {
+        stroke: rgb(0, 0, 0);
+      }
+    }
+  </style>
+</svg>
