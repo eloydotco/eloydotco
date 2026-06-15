@@ -2,7 +2,7 @@
   font-family: 'Comfortaa';
   font-style: normal;
   font-weight: 400;
-  src: local('Comfortaa'), url('/Comfortaa-Light.woff') format('woff');
+  src: local('Comfortaa'), url('static/Comfortaa-Light.woff') format('woff');
 }
 
 *,
@@ -131,6 +131,14 @@ a[href] {
   main.content {
     margin: 0 0 0 1rem;
   }
+}
+
+
+
+hr {
+  border: none;
+  border-top: 1px solid var(--text-color-2);
+  margin: 1.5rem 0;
 }
 
 @media (prefers-color-scheme: light) {
